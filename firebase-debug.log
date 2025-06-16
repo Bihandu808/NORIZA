@@ -1,0 +1,54 @@
+[debug] [2025-06-15T07:27:38.131Z] ----------------------------------------------------------------------
+[debug] [2025-06-15T07:27:38.133Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Esitha Jayasundara\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-06-15T07:27:38.133Z] CLI Version:   14.7.0
+[debug] [2025-06-15T07:27:38.133Z] Platform:      win32
+[debug] [2025-06-15T07:27:38.133Z] Node Version:  v22.11.0
+[debug] [2025-06-15T07:27:38.133Z] Time:          Sun Jun 15 2025 12:57:38 GMT+0530 (India Standard Time)
+[debug] [2025-06-15T07:27:38.134Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-15T07:27:38.138Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-15T07:27:38.138Z] > authorizing via signed-in user (esithajayasundara@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Esitha Jayasundara\Downloads\project-bolt-sb1-b1nqedj2\project
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-06-15T07:44:31.896Z] Checked if tokens are valid: true, expires at: 1749976040367
+[debug] [2025-06-15T07:44:31.898Z] Checked if tokens are valid: true, expires at: 1749976040367
+[debug] [2025-06-15T07:44:31.907Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-06-15T07:44:32.829Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-06-15T07:44:32.829Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project noriza-a3c9a (Noriza) 
+[info] 
+=== Firestore Setup
+[info] i  firestore: ensuring required API firestore.googleapis.com is enabled... 
+[debug] [2025-06-15T07:44:34.659Z] Checked if tokens are valid: true, expires at: 1749976040367
+[debug] [2025-06-15T07:44:34.659Z] Checked if tokens are valid: true, expires at: 1749976040367
+[debug] [2025-06-15T07:44:34.659Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/noriza-a3c9a/services/firestore.googleapis.com [none]
+[debug] [2025-06-15T07:44:34.659Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/noriza-a3c9a/services/firestore.googleapis.com x-goog-quota-user=projects/noriza-a3c9a
+[debug] [2025-06-15T07:44:36.666Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/noriza-a3c9a/services/firestore.googleapis.com 200
+[debug] [2025-06-15T07:44:36.666Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/noriza-a3c9a/services/firestore.googleapis.com [omitted]
+[info] +  firestore: required API firestore.googleapis.com is enabled 
+[debug] [2025-06-15T07:44:36.672Z] Checked if tokens are valid: true, expires at: 1749976040367
+[debug] [2025-06-15T07:44:36.673Z] Checked if tokens are valid: true, expires at: 1749976040367
+[debug] [2025-06-15T07:44:36.673Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/noriza-a3c9a/databases [none]
+[debug] [2025-06-15T07:44:37.809Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/noriza-a3c9a/databases 200
+[debug] [2025-06-15T07:44:37.810Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/noriza-a3c9a/databases {"databases":[{"name":"projects/noriza-a3c9a/databases/(default)","uid":"bab61553-4ac0-40a4-9900-73e462a36467","createTime":"2025-06-15T07:10:04.339307Z","updateTime":"2025-06-15T07:10:04.339307Z","locationId":"nam5","type":"FIRESTORE_NATIVE","concurrencyMode":"PESSIMISTIC","versionRetentionPeriod":"3600s","earliestVersionTime":"2025-06-15T07:10:04.339307Z","appEngineIntegrationMode":"DISABLED","keyPrefix":"s","pointInTimeRecoveryEnablement":"POINT_IN_TIME_RECOVERY_DISABLED","deleteProtectionState":"DELETE_PROTECTION_DISABLED","databaseEdition":"STANDARD","freeTier":true,"etag":"IIvgkJ338o0DMKHDpcj18o0D"}]}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
